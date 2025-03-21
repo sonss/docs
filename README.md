@@ -1,32 +1,33 @@
-# Mintlify Starter Kit
+# Mintlify 入门套件
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+单击“使用此模板”复制 Mintlify 入门套件。入门套件包含以下示例：
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+- 指南页面
+- 导航
+- 自定义
+- API 参考页面
+- 使用热门组件
 
-### Development
+### 开发
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+安装 [Mintlify CLI](https://www.npmjs.com/package/mintlify) 以在本地预览文档更改。要安装，请使用以下命令
 
 ```
 npm i -g mintlify
 ```
 
-Run the following command at the root of your documentation (where docs.json is)
+在文档的根目录（docs.json 所在的位置）运行以下命令
 
 ```
 mintlify dev
 ```
 
-### Publishing Changes
+### 发布更改
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+安装我们的 Github 应用程序以自动将更改从您的存储库传播到您的部署。推送到默认分支后，更改将自动部署到生产环境。在您的仪表板上找到要安装的链接。
 
-#### Troubleshooting
+#### 故障排除
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+- Mintlify dev 未运行 - 运行“mintlify install”，它将重新安装依赖项。
+
+页面加载为 404 - 确保您在包含“docs.json”的文件夹中运行
